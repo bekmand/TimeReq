@@ -31,4 +31,9 @@ class CreateUsersTable extends Migration
     {
         Schema::drop('users');
     }
+
+    public function update()
+    {
+      
+    }
 }
