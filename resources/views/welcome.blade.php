@@ -14,7 +14,6 @@
                 margin: 0;
                 padding: 0;
                 width: 100%;
-                color: #B0BEC5;
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
@@ -44,8 +43,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">{{ HTML::image('picture/logotrimmed.png')}}</div>
-                <div class="quote">{{ Inspiring::quote() }}</div>
+                <div class="title"><img src="{{ asset('/image/LogoTrimmed.png') }}"></div>
+                <div class="quote"><p>Under construction</p></div>
             </div>
         </div>
     </body>
